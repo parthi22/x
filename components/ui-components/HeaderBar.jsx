@@ -46,7 +46,6 @@ export default function HeaderBar(props) {
           shrink="0"
           position="relative"
           padding="0px 0px 0px 0px"
-          src="https://d2gxm2c63thfmv.cloudfront.net/wp-content/uploads/2021/07/21232027/xto10x-logo-v2.png"
           {...getOverrideProps(overrides, "Flex.Flex[0].Image[0]")}
         ></Image>
       </Flex>

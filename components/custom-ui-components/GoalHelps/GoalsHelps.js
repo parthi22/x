@@ -5,7 +5,7 @@ import {
   BtnRequestdemo12,
   ArrowLeft,
   ArrowRight,
-} from '../../ui-components/index'
+} from '../../ui-components'
 
 export default function GoalsHelps() {
   let [step, setStep] = useState(1)

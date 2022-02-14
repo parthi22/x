@@ -1,10 +1,10 @@
 import React from 'react'
 import { Media } from '../../utils/screenLayout'
-import Layout from '../common/Layout'
+import Layout from '../../components/common/Layout'
 import DesktopView from './DesktopView'
 import MobileView from './MobileView'
 
-const GoalsAdView = (props) => {
+const PerformanceAdView = (props) => {
   const { head } = props
   return (
     <Layout head={head}>
@@ -18,7 +18,7 @@ const GoalsAdView = (props) => {
   )
 }
 
-GoalsAdView.defaultProps = {
+PerformanceAdView.defaultProps = {
   head: {
     title: '10xGoals - Implement OKRs successfully - xto10x',
     description: 'Description for the page',
@@ -27,4 +27,4 @@ GoalsAdView.defaultProps = {
   },
 }
 
-export default GoalsAdView
+export default PerformanceAdView
