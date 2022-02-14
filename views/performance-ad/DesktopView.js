@@ -1,10 +1,7 @@
 import React from 'react'
 import {
-  RequestDemo,
   AdvantagesComponent,
 } from '../../components/ui-components'
-import CompanyScrool from '../../components/custom-ui-components/CompanyScrool'
-import { GoalsHelps } from '../../components/custom-ui-components/GoalHelps/GoalsHelps'
 import classes from '../../styles/home.module.css'
 
 const DesktopView = () => {
