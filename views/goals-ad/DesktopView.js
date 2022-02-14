@@ -1,10 +1,9 @@
 import React from 'react'
 import { AdvantagesComponent } from '../../components/ui-components'
-import styles from '../../styles/home.module.css'
 
 const DesktopView = () => {
   return (
-    <div className={styles.goals}>
+    <div>
       <AdvantagesComponent
         width="100%"
         overrides={{
