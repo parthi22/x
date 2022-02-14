@@ -1,0 +1,89 @@
+.helps {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 70vh;
+  /* justify-content: space-around; */
+}
+
+.clicked {
+  color: #cb202d;
+}
+
+.GoalsHelps p {
+  cursor: pointer;
+}
+
+.GoalsHelps {
+  color: #6c6d6f;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.3em;
+  width: 30%;
+  letter-spacing: 0;
+}
+
+.GoalsHelps span {
+  margin-right: 20px;
+}
+
+.imgdiv {
+  width: 70%;
+}
+
+.scrool_img {
+  width: 100%;
+  overflow-x: scroll;
+  transition: 1s;
+  display: flex;
+  flex-direction: row;
+}
+.scrool_img::-webkit-scrollbar {
+  width: 0;
+}
+
+.slide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: 1s all;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+  /* display: flex; */
+}
+
+.slide p {
+  max-width: 440px;
+}
+
+.slide img {
+  width: 440px;
+  /* width: 70%; */
+  display: inline-block;
+  /* width: 80%; */
+}
+
+.ArrowDiv {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 80px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+}
+.arrow div {
+  width: 40px;
+}
+.arrow button {
+  margin-left: 10px;
+}
