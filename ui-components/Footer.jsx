@@ -16,7 +16,6 @@ export default function Footer(props) {
       gap="10px"
       direction="row"
       width="1440px"
-      justifyContent="center"
       alignItems="center"
       overflow="hidden"
       position="relative"
@@ -27,22 +26,21 @@ export default function Footer(props) {
     >
       <Flex
         gap="10px"
-        direction="row"
-        height="67px"
+        direction="column"
+        width="460px"
+        height="38px"
         justifyContent="center"
         alignItems="center"
         grow="1"
         basis="460px"
-        alignSelf="stretch"
         overflow="hidden"
         position="relative"
         padding="10px 10px 10px 10px"
-        backgroundColor="rgba(246.0000005364418,246.0000005364418,247.00000047683716,1)"
         {...getOverrideProps(overrides, "Flex.Flex[0]")}
       >
         <Image
-          width="132px"
-          height="47px"
+          width="106px"
+          height="38px"
           shrink="0"
           position="relative"
           padding="0px 0px 0px 0px"
@@ -53,7 +51,7 @@ export default function Footer(props) {
       <Flex
         gap="10px"
         direction="column"
-        height="67px"
+        height="55px"
         justifyContent="center"
         alignItems="center"
         grow="1"
@@ -84,9 +82,9 @@ export default function Footer(props) {
         ></Text>
       </Flex>
       <Flex
-        gap="10px"
-        direction="column"
-        height="67px"
+        gap="40px"
+        direction="row"
+        height="55px"
         justifyContent="center"
         alignItems="center"
         grow="1"
@@ -100,26 +98,26 @@ export default function Footer(props) {
       >
         <Flex
           padding="0px 0px 0px 0px"
-          width="154px"
-          height="40px"
+          width="35px"
+          height="35px"
           shrink="0"
           position="relative"
           {...getOverrideProps(overrides, "Flex.Flex[2].Flex[0]")}
         >
           <View
             padding="0px 0px 0px 0px"
-            width="40px"
-            height="40px"
+            width="35px"
+            height="35px"
             position="absolute"
             top="0px"
-            left="57px"
+            left="0px"
             {...getOverrideProps(overrides, "Flex.Flex[2].Flex[0].View[0]")}
           >
             <Icon
-              width="40px"
-              height="40px"
-              pathData="M40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 8.9543 8.9543 0 20 0C31.0457 0 40 8.9543 40 20Z"
-              viewBox={{ minX: 0, minY: 0, width: 40, height: 40 }}
+              width="35px"
+              height="35px"
+              pathData="M35 17.5C35 27.165 27.165 35 17.5 35C7.83502 35 0 27.165 0 17.5C0 7.83502 7.83502 0 17.5 0C27.165 0 35 7.83502 35 17.5Z"
+              viewBox={{ minX: 0, minY: 0, width: 35, height: 35 }}
               color="rgba(200.00000327825546,201.00000321865082,208.0000028014183,1)"
               position="absolute"
               top="0px"
@@ -131,21 +129,21 @@ export default function Footer(props) {
             ></Icon>
             <View
               padding="0px 0px 0px 0px"
-              width="21px"
-              height="16px"
+              width="18.375px"
+              height="14px"
               position="absolute"
-              top="12px"
-              left="9px"
+              top="10.5px"
+              left="7.875px"
               {...getOverrideProps(
                 overrides,
                 "Flex.Flex[2].Flex[0].View[0].View[0]"
               )}
             >
               <Icon
-                width="21px"
-                height="16px"
-                pathData="M18.8414 3.98749C18.8547 4.16253 18.8547 4.33756 18.8547 4.5125C18.8547 9.85003 14.5242 16 6.60915 16C4.17073 16 1.90544 15.3375 0 14.1876C0.34646 14.225 0.679553 14.2375 1.03934 14.2375C3.05142 14.2375 4.90352 13.6 6.38267 12.5125C4.49045 12.4751 2.90484 11.3126 2.35852 9.71253C2.62501 9.74996 2.8915 9.77498 3.17133 9.77498C3.55773 9.77498 3.94424 9.72494 4.30397 9.63757C2.33185 9.26248 0.852762 7.63752 0.852762 5.675L0.852762 5.62506C1.4257 5.92499 2.09203 6.11254 2.79816 6.13746C1.63895 5.4125 0.879421 4.17504 0.879421 2.77495C0.879421 2.02497 1.09253 1.33754 1.4657 0.737472C3.5844 3.18747 6.76907 4.78751 10.3401 4.96245C10.2735 4.66251 10.2335 4.35007 10.2335 4.03753C10.2335 1.8125 12.1523 0 14.5374 0C15.7766 0 16.896 0.487478 17.6821 1.27499C18.6548 1.10005 19.5875 0.762491 20.4138 0.300032C20.094 1.23756 19.4144 2.02507 18.5216 2.52496C19.3877 2.43749 20.2272 2.21251 21 1.89997C20.4138 2.69999 19.6809 3.41245 18.8414 3.98749Z"
-                viewBox={{ minX: 0, minY: 0, width: 21, height: 16 }}
+                width="18.375px"
+                height="14px"
+                pathData="M16.4862 3.48905C16.4979 3.64221 16.4979 3.79537 16.4979 3.94844C16.4979 8.61878 12.7087 14 5.78301 14C3.64939 14 1.66726 13.4203 0 12.4141C0.303152 12.4469 0.594609 12.4578 0.90942 12.4578C2.66999 12.4578 4.29058 11.9 5.58483 10.9484C3.92915 10.9157 2.54173 9.8985 2.06371 8.49846C2.29689 8.53121 2.53007 8.5531 2.77491 8.5531C3.11302 8.5531 3.45121 8.50932 3.76597 8.43287C2.04037 8.10467 0.746167 6.68283 0.746167 4.96562L0.746167 4.92193C1.24748 5.18437 1.83053 5.34847 2.44839 5.37028C1.43408 4.73593 0.769494 3.65316 0.769494 2.42808C0.769494 1.77185 0.955964 1.17034 1.28249 0.645288C3.13635 2.78904 5.92294 4.18907 9.04762 4.34214C8.98928 4.0797 8.95427 3.80631 8.95427 3.53284C8.95427 1.58594 10.6333 0 12.7202 0C13.8046 0 14.784 0.426543 15.4718 1.11561C16.323 0.962545 17.1391 0.66718 17.8621 0.262528C17.5822 1.08286 16.9876 1.77193 16.2064 2.20934C16.9643 2.1328 17.6988 1.93595 18.375 1.66248C17.8621 2.36249 17.2208 2.98589 16.4862 3.48905Z"
+                viewBox={{ minX: 0, minY: 0, width: 18.375, height: 14 }}
                 color="rgba(247.00000047683716,247.00000047683716,249.00000035762787,1)"
                 position="absolute"
                 top="0%"
@@ -159,229 +157,171 @@ export default function Footer(props) {
               ></Icon>
             </View>
           </View>
-          <View
-            padding="0px 0px 0px 0px"
-            width="40px"
-            height="40px"
-            position="absolute"
-            top="0px"
-            left="114px"
-            {...getOverrideProps(overrides, "Flex.Flex[2].Flex[0].View[1]")}
-          >
-            <View
-              padding="0px 0px 0px 0px"
-              width="40px"
-              height="40px"
-              position="absolute"
-              top="0px"
-              left="0px"
-              {...getOverrideProps(
-                overrides,
-                "Flex.Flex[2].Flex[0].View[1].View[0]"
-              )}
-            >
-              <Icon
-                width="40px"
-                height="40px"
-                pathData="M40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 8.9543 8.9543 0 20 0C31.0457 0 40 8.9543 40 20Z"
-                viewBox={{ minX: 0, minY: 0, width: 40, height: 40 }}
-                color="rgba(200.00000327825546,201.00000321865082,208.0000028014183,1)"
-                position="absolute"
-                top="0px"
-                left="0px"
-                {...getOverrideProps(
-                  overrides,
-                  "Flex.Flex[2].Flex[0].View[1].View[0].Icon[0]"
-                )}
-              ></Icon>
-            </View>
-            <Icon
-              width="22.00048828125px"
-              height="22px"
-              pathData="M0.000542523 2.74994C0.000542523 1.23197 1.23252 0 2.75048 0C4.26845 0 5.50042 1.23197 5.50042 2.74994C5.50042 4.26791 4.26845 5.49988 2.75048 5.49988C1.23252 5.49988 0.000542523 4.26791 0.000542523 2.74994ZM14.8508 6.60034C10.9019 6.60034 7.69971 9.78294 7.69971 13.7062L7.69971 20.8988C7.69971 21.5062 8.19347 22 8.80091 22L11.3663 22C11.9737 22 12.4675 21.5062 12.4675 20.8988L12.4675 13.7062C12.4675 12.3178 13.6701 11.208 15.0977 11.351C16.337 11.4745 17.2328 12.6074 17.2328 13.8528L17.2328 20.8988C17.2328 21.5062 17.7266 22 18.334 22L20.8994 22C21.5068 22 22.0006 21.5062 22.0006 20.8988L22.0006 13.7062C22.0006 9.78294 18.7985 6.60034 14.8508 6.60034ZM4.3999 7.69971L1.1012 7.69971C0.493767 7.69971 0 8.19225 0 8.79968L0 20.8994C0 21.5068 0.493767 21.9994 1.1012 21.9994L4.3999 21.9994C5.00733 21.9994 5.49988 21.5068 5.49988 20.8994L5.49988 8.79968C5.49988 8.19225 5.00733 7.69971 4.3999 7.69971Z"
-              viewBox={{ minX: 0, minY: 0, width: 22.00048828125, height: 22 }}
-              color="rgba(247.00000047683716,247.00000047683716,249.00000035762787,1)"
-              position="absolute"
-              top="22.5%"
-              bottom="22.5%"
-              left="22.5%"
-              right="22.49847412109375%"
-              {...getOverrideProps(
-                overrides,
-                "Flex.Flex[2].Flex[0].View[1].Icon[0]"
-              )}
-            >
-              <Icon
-                width="14.30078125px"
-                height="15.399658203125px"
-                pathData="M7.15106 0C3.20215 0 0 3.1826 0 7.10584L0 14.2985C0 14.9059 0.493767 15.3997 1.1012 15.3997L3.66658 15.3997C4.27402 15.3997 4.76778 14.9059 4.76778 14.2985L4.76778 7.10584C4.76778 5.71743 5.97042 4.60768 7.39795 4.75067C8.63725 4.87411 9.53312 6.00709 9.53312 7.25251L9.53312 14.2985C9.53312 14.9059 10.0269 15.3997 10.6343 15.3997L13.1997 15.3997C13.8071 15.3997 14.3009 14.9059 14.3009 14.2985L14.3009 7.10584C14.3009 3.1826 11.0988 0 7.15106 0Z"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 14.30078125,
-                  height: 15.399658203125,
-                }}
-                color="rgba(34.934998601675034,31.11000034958124,31.875,1)"
-                position="absolute"
-                top="16.5008544921875%"
-                bottom="45%"
-                left="19.249267578125%"
-                right="44.99847173690796%"
-                {...getOverrideProps(
-                  overrides,
-                  "Flex.Flex[2].Flex[0].View[1].Icon[0].Icon[0]"
-                )}
-              ></Icon>
-              <Icon
-                width="5.5px"
-                height="14.299560546875px"
-                pathData="M4.3999 0L1.1012 0C0.493767 0 0 0.492545 0 1.09998L0 13.1997C0 13.8071 0.493767 14.2997 1.1012 14.2997L4.3999 14.2997C5.00733 14.2997 5.49988 13.8071 5.49988 13.1997L5.49988 1.09998C5.49988 0.492545 5.00733 0 4.3999 0Z"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 5.5,
-                  height: 14.299560546875,
-                }}
-                color="rgba(34.934998601675034,31.11000034958124,31.875,1)"
-                position="absolute"
-                top="19.249267578125%"
-                bottom="45.00152826309204%"
-                left="0%"
-                right="86.25030636787415%"
-                {...getOverrideProps(
-                  overrides,
-                  "Flex.Flex[2].Flex[0].View[1].Icon[0].Icon[1]"
-                )}
-              ></Icon>
-              <Icon
-                width="5.5px"
-                height="5.499755859375px"
-                pathData="M2.74994 0C1.23197 0 0 1.23197 0 2.74994C0 4.26791 1.23197 5.49988 2.74994 5.49988C4.26791 5.49988 5.49988 4.26791 5.49988 2.74994C5.49988 1.23197 4.26791 0 2.74994 0Z"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 5.5,
-                  height: 5.499755859375,
-                }}
-                color="rgba(34.934998601675034,31.11000034958124,31.875,1)"
-                position="absolute"
-                top="0%"
-                bottom="86.25030636787415%"
-                left="0.0013563066022470593%"
-                right="86.2489500612719%"
-                {...getOverrideProps(
-                  overrides,
-                  "Flex.Flex[2].Flex[0].View[1].Icon[0].Icon[2]"
-                )}
-              ></Icon>
-            </Icon>
-          </View>
-          <View
-            padding="0px 0px 0px 0px"
-            width="40px"
-            height="40px"
+        </Flex>
+        <Flex
+          padding="0px 0px 0px 0px"
+          width="35px"
+          height="35px"
+          shrink="0"
+          position="relative"
+          {...getOverrideProps(overrides, "Flex.Flex[2].Flex[1]")}
+        >
+          <Icon
+            width="35px"
+            height="35px"
+            pathData="M35 17.5C35 27.165 27.165 35 17.5 35C7.83502 35 0 27.165 0 17.5C0 7.83502 7.83502 0 17.5 0C27.165 0 35 7.83502 35 17.5Z"
+            viewBox={{ minX: 0, minY: 0, width: 35, height: 35 }}
+            color="rgba(200.00000327825546,201.00000321865082,208.0000028014183,1)"
             position="absolute"
             top="0px"
             left="0px"
-            {...getOverrideProps(overrides, "Flex.Flex[2].Flex[0].View[2]")}
+            {...getOverrideProps(overrides, "Flex.Flex[2].Flex[1].Icon[0]")}
+          ></Icon>
+          <Icon
+            width="20.125px"
+            height="14.08750057220459px"
+            pathData="M17.9177 0.421976C18.7942 0.649194 19.4758 1.33085 19.703 2.20726C20.125 3.79778 20.125 7.04375 20.125 7.04375C20.125 7.04375 20.125 10.3222 19.703 11.8802C19.4758 12.7567 18.7942 13.4383 17.9177 13.6655C16.3597 14.0875 10.0625 14.0875 10.0625 14.0875C10.0625 14.0875 3.76532 14.0875 2.20726 13.6655C1.33085 13.4383 0.649194 12.7567 0.421976 11.8802C0 10.3222 0 7.04375 0 7.04375C0 7.04375 0 3.79778 0.421976 2.20726C0.649194 1.33085 1.33085 0.649194 2.20726 0.421976C3.76532 0 10.0625 0 10.0625 0C10.0625 0 16.3597 0 17.9177 0.421976ZM13.2758 7.04384L8.0498 4.02509L8.0498 10.0626L13.2758 7.04384Z"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 20.125,
+              height: 14.08740234375,
+            }}
+            color="rgba(247.00000047683716,247.00000047683716,249.00000035762787,1)"
+            position="absolute"
+            top="10.5px"
+            left="7px"
+            {...getOverrideProps(overrides, "Flex.Flex[2].Flex[1].Icon[1]")}
           >
-            <View
-              padding="0px 0px 0px 0px"
-              width="40px"
-              height="40px"
+            <Icon
+              width="20.125px"
+              height="14.08750057220459px"
+              pathData=""
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 20.125,
+                height: 14.08740234375,
+              }}
               position="absolute"
               top="0px"
               left="0px"
               {...getOverrideProps(
                 overrides,
-                "Flex.Flex[2].Flex[0].View[2].View[0]"
+                "Flex.Flex[2].Flex[1].Icon[1].Icon[0]"
               )}
-            >
-              <Icon
-                width="40px"
-                height="40px"
-                pathData="M40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20C0 8.9543 8.9543 0 20 0C31.0457 0 40 8.9543 40 20Z"
-                viewBox={{ minX: 0, minY: 0, width: 40, height: 40 }}
-                color="rgba(200.00000327825546,201.00000321865082,208.0000028014183,1)"
-                position="absolute"
-                top="0px"
-                left="0px"
-                {...getOverrideProps(
-                  overrides,
-                  "Flex.Flex[2].Flex[0].View[2].View[0].Icon[0]"
-                )}
-              ></Icon>
-            </View>
-            <View
-              padding="0px 0px 0px 0px"
-              width="23px"
-              height="16.100000381469727px"
+            ></Icon>
+            <Icon
+              width="5.226008415222168px"
+              height="6.037499904632568px"
+              pathData=""
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 5.22607421875,
+                height: 6.03759765625,
+              }}
               position="absolute"
-              top="12px"
-              left="8px"
+              top="4.02508544921875px"
+              left="8.0498046875px"
               {...getOverrideProps(
                 overrides,
-                "Flex.Flex[2].Flex[0].View[2].View[1]"
+                "Flex.Flex[2].Flex[1].Icon[1].Icon[1]"
               )}
-            >
-              <Icon
-                width="23px"
-                height="16.100000381469727px"
-                pathData="M20.4774 0.482258C21.479 0.741935 22.2581 1.52097 22.5177 2.52258C23 4.34032 23 8.05 23 8.05C23 8.05 23 11.7968 22.5177 13.5774C22.2581 14.579 21.479 15.3581 20.4774 15.6177C18.6968 16.1 11.5 16.1 11.5 16.1C11.5 16.1 4.30323 16.1 2.52258 15.6177C1.52097 15.3581 0.741935 14.579 0.482258 13.5774C0 11.7968 0 8.05 0 8.05C0 8.05 0 4.34032 0.482258 2.52258C0.741935 1.52097 1.52097 0.741935 2.52258 0.482258C4.30323 0 11.5 0 11.5 0C11.5 0 18.6968 0 20.4774 0.482258ZM15.1723 8.04987L9.19974 4.59987L9.19974 11.4999L15.1723 8.04987Z"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 23,
-                  height: 16.10009765625,
-                }}
-                color="rgba(247.00000047683716,247.00000047683716,249.00000035762787,1)"
-                position="absolute"
-                top="0px"
-                left="0px"
-                {...getOverrideProps(
-                  overrides,
-                  "Flex.Flex[2].Flex[0].View[2].View[1].Icon[0]"
-                )}
-              >
-                <Icon
-                  width="23px"
-                  height="16.100000381469727px"
-                  pathData=""
-                  viewBox={{
-                    minX: 0,
-                    minY: 0,
-                    width: 23,
-                    height: 16.10009765625,
-                  }}
-                  position="absolute"
-                  top="0px"
-                  left="0px"
-                  {...getOverrideProps(
-                    overrides,
-                    "Flex.Flex[2].Flex[0].View[2].View[1].Icon[0].Icon[0]"
-                  )}
-                ></Icon>
-                <Icon
-                  width="5.972580909729004px"
-                  height="6.900000095367432px"
-                  pathData=""
-                  viewBox={{
-                    minX: 0,
-                    minY: 0,
-                    width: 5.97265625,
-                    height: 6.89990234375,
-                  }}
-                  position="absolute"
-                  top="4.599867820739746px"
-                  left="9.199735641479492px"
-                  {...getOverrideProps(
-                    overrides,
-                    "Flex.Flex[2].Flex[0].View[2].View[1].Icon[0].Icon[1]"
-                  )}
-                ></Icon>
-              </Icon>
-            </View>
-          </View>
+            ></Icon>
+          </Icon>
+        </Flex>
+        <Flex
+          padding="0px 0px 0px 0px"
+          width="35px"
+          height="35px"
+          shrink="0"
+          position="relative"
+          {...getOverrideProps(overrides, "Flex.Flex[2].Flex[2]")}
+        >
+          <Icon
+            width="35px"
+            height="35px"
+            pathData="M35 17.5C35 27.165 27.165 35 17.5 35C7.83502 35 0 27.165 0 17.5C0 7.83502 7.83502 0 17.5 0C27.165 0 35 7.83502 35 17.5Z"
+            viewBox={{ minX: 0, minY: 0, width: 35, height: 35 }}
+            color="rgba(200.00000327825546,201.00000321865082,208.0000028014183,1)"
+            position="absolute"
+            top="0px"
+            left="0px"
+            {...getOverrideProps(overrides, "Flex.Flex[2].Flex[2].Icon[0]")}
+          ></Icon>
+          <Icon
+            width="19.24951171875px"
+            height="19.25px"
+            pathData="M0.000976562 2.4062C0.000976562 1.07798 1.07895 0 2.40717 0C3.73539 0 4.81337 1.07798 4.81337 2.4062C4.81337 3.73442 3.73539 4.81239 2.40717 4.81239C1.07895 4.81239 0.000976562 3.73442 0.000976562 2.4062ZM12.9935 5.77539C9.53821 5.77539 6.73633 8.56016 6.73633 11.993L6.73633 18.2865C6.73633 18.818 7.16837 19.2501 7.69988 19.2501L9.94459 19.2501C10.4761 19.2501 10.9081 18.818 10.9081 18.2865L10.9081 11.993C10.9081 10.7781 11.9604 9.80711 13.2095 9.93223C14.2939 10.0402 15.0778 11.0316 15.0778 12.1213L15.0778 18.2865C15.0778 18.818 15.5099 19.2501 16.0414 19.2501L18.2861 19.2501C18.8176 19.2501 19.2496 18.818 19.2496 18.2865L19.2496 11.993C19.2496 8.56016 16.4477 5.77539 12.9935 5.77539ZM3.84991 6.73724L0.963548 6.73724C0.432046 6.73724 0 7.16822 0 7.69972L0 18.287C0 18.8185 0.432046 19.2495 0.963548 19.2495L3.84991 19.2495C4.38142 19.2495 4.81239 18.8185 4.81239 18.287L4.81239 7.69972C4.81239 7.16822 4.38142 6.73724 3.84991 6.73724Z"
+            viewBox={{ minX: 0, minY: 0, width: 19.24951171875, height: 19.25 }}
+            color="rgba(247.00000047683716,247.00000047683716,249.00000035762787,1)"
+            position="absolute"
+            top="22.5%"
+            bottom="22.499738420758927%"
+            left="22.5%"
+            right="22.501089913504465%"
+            {...getOverrideProps(overrides, "Flex.Flex[2].Flex[2].Icon[1]")}
+          >
+            <Icon
+              width="12.51318359375px"
+              height="13.474609375px"
+              pathData="M6.25718 0C2.80188 0 0 2.78477 0 6.21761L0 12.5112C0 13.0427 0.432046 13.4747 0.963548 13.4747L3.20826 13.4747C3.73976 13.4747 4.17181 13.0427 4.17181 12.5112L4.17181 6.21761C4.17181 5.00275 5.22412 4.03172 6.4732 4.15684C7.5576 4.26485 8.34148 5.2562 8.34148 6.34594L8.34148 12.5112C8.34148 13.0427 8.77353 13.4747 9.30503 13.4747L11.5497 13.4747C12.0812 13.4747 12.5133 13.0427 12.5133 12.5112L12.5133 6.21761C12.5133 2.78477 9.71141 0 6.25718 0Z"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 12.51318359375,
+                height: 13.474609375,
+              }}
+              color="rgba(34.934998601675034,31.11000034958124,31.875,1)"
+              position="absolute"
+              top="16.50111607142857%"
+              bottom="44.99973842075893%"
+              left="19.246651785714285%"
+              right="45.0010871887207%"
+              {...getOverrideProps(
+                overrides,
+                "Flex.Flex[2].Flex[2].Icon[1].Icon[0]"
+              )}
+            ></Icon>
+            <Icon
+              width="4.8125px"
+              height="12.51220703125px"
+              pathData="M3.84991 0L0.963548 0C0.432046 0 0 0.430977 0 0.962479L0 11.5497C0 12.0812 0.432046 12.5122 0.963548 12.5122L3.84991 12.5122C4.38142 12.5122 4.81239 12.0812 4.81239 11.5497L4.81239 0.962479C4.81239 0.430977 4.38142 0 3.84991 0Z"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 4.8125,
+                height: 12.51220703125,
+              }}
+              color="rgba(34.934998601675034,31.11000034958124,31.875,1)"
+              position="absolute"
+              top="19.249267578125%"
+              bottom="45.00152860369001%"
+              left="0%"
+              right="86.25030653817312%"
+              {...getOverrideProps(
+                overrides,
+                "Flex.Flex[2].Flex[2].Icon[1].Icon[1]"
+              )}
+            ></Icon>
+            <Icon
+              width="4.8125px"
+              height="4.8125px"
+              pathData="M2.4062 0C1.07798 0 0 1.07798 0 2.4062C0 3.73442 1.07798 4.81239 2.4062 4.81239C3.73442 4.81239 4.81239 3.73442 4.81239 2.4062C4.81239 1.07798 3.73442 0 2.4062 0Z"
+              viewBox={{ minX: 0, minY: 0, width: 4.8125, height: 4.8125 }}
+              color="rgba(34.934998601675034,31.11000034958124,31.875,1)"
+              position="absolute"
+              top="0%"
+              bottom="86.25030653817312%"
+              left="0.0027901785714285715%"
+              right="86.2475163596017%"
+              {...getOverrideProps(
+                overrides,
+                "Flex.Flex[2].Flex[2].Icon[1].Icon[2]"
+              )}
+            ></Icon>
+          </Icon>
         </Flex>
       </Flex>
     </Flex>

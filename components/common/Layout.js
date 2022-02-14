@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import { Media, MediaContextProvider } from '../../utils/screenLayout'
 import SiteHead from './SiteHead'
 import FooterMobileView from '../../ui-components/FooterMobileView'
-import HeaderBar from '../../ui-components/HeaderBar'
+// import HeaderBar from '../../ui-components/HeaderBar'
+import HeaderBar from '../custom-ui-components/HeaderBar'
 import Footer from '../../ui-components/Footer'
 
 const Layout = (props) => {
