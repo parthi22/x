@@ -1,6 +1,4 @@
-import { RequestDemo1, AdvantagesComponent } from '../ui-components/index'
-import CompanyScrool from '../custom-ui-components/CompanyScrool'
-import GoalsHelps from '../custom-ui-components/GoalHelps/GoalsHelps'
+import { AdvantagesComponent } from '../ui-components/index'
 import classes from '../styles/home.module.css'
 
 export default function Home() {
@@ -23,12 +21,7 @@ export default function Home() {
             }}
           />
         </div>
-        <div>
-          <RequestDemo1 />
-        </div>
       </div>
-      <CompanyScrool />
-      <GoalsHelps />
     </main>
   )
 }
