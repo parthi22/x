@@ -1,6 +1,5 @@
 import '@aws-amplify/ui-react/styles.css'
 import { AmplifyProvider } from '@aws-amplify/ui-react'
-import '../styles.css'
 
 function Xto10X({ Component, pageProps }) {
   return (
