@@ -1,10 +1,16 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
+import { layoutStyles } from '../utils/screenLayout'
+
 class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
+          <style
+            type="text/css"
+            dangerouslySetInnerHTML={{ __html: layoutStyles }}
+          />
           <link rel="preconnect" href="https://fonts.googleapis.com"></link>
           <link
             rel="preconnect"
