@@ -1,7 +1,15 @@
-import '../styles/globals.css'
+import '@aws-amplify/ui-react/styles.css'
+import { AmplifyProvider } from '@aws-amplify/ui-react'
+import '../styles.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function Xto10X({ Component, pageProps }) {
+  return (
+    <AmplifyProvider>
+      {/* <HeaderBar /> */}
+      <Component {...pageProps} />
+      {/* <Footer width="100%" /> */}
+    </AmplifyProvider>
+  )
 }
 
-export default MyApp
+export default Xto10X
