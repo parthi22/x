@@ -5,13 +5,13 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
-import { Flex, Image, Text } from '@aws-amplify/ui-react'
-import BtnRequestdemo12 from './BtnRequestdemo12'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, Image, Text } from "@aws-amplify/ui-react";
+import BtnRequestdemo12 from "./BtnRequestdemo12";
 export default function HeaderBar(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <Flex
       gap="10px"
@@ -24,7 +24,7 @@ export default function HeaderBar(props) {
       padding="10px 10px 10px 10px"
       backgroundColor="rgba(255,255,255,1)"
       {...rest}
-      {...getOverrideProps(overrides, 'Flex')}
+      {...getOverrideProps(overrides, "Flex")}
     >
       <Flex
         gap="10px"
@@ -38,7 +38,7 @@ export default function HeaderBar(props) {
         position="relative"
         padding="24px 32px 24px 32px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[0]')}
+        {...getOverrideProps(overrides, "Flex.Flex[0]")}
       >
         <Image
           width="132px"
@@ -46,7 +46,8 @@ export default function HeaderBar(props) {
           shrink="0"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.Flex[0].Image[0]')}
+          src="https://d2gxm2c63thfmv.cloudfront.net/wp-content/uploads/2021/07/21232027/xto10x-logo-v2.png"
+          {...getOverrideProps(overrides, "Flex.Flex[0].Image[0]")}
         ></Image>
       </Flex>
       <Flex
@@ -58,7 +59,7 @@ export default function HeaderBar(props) {
         position="relative"
         padding="24px 32px 24px 32px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[1]')}
+        {...getOverrideProps(overrides, "Flex.Flex[1]")}
       >
         <BtnRequestdemo12
           display="flex"
@@ -72,7 +73,7 @@ export default function HeaderBar(props) {
           position="relative"
           padding="10px 10px 10px 10px"
           backgroundColor="rgba(186.0000041127205,51.00000075995922,53.00000064074993,1)"
-          {...getOverrideProps(overrides, 'Flex.Flex[1].BtnRequestdemo12[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[1].BtnRequestdemo12[0]")}
         >
           <Text
             fontFamily="Inter"
@@ -93,11 +94,11 @@ export default function HeaderBar(props) {
             children="Get A Demo"
             {...getOverrideProps(
               overrides,
-              'Flex.Flex[1].BtnRequestdemo12[0].Text[0]',
+              "Flex.Flex[1].BtnRequestdemo12[0].Text[0]"
             )}
           ></Text>
         </BtnRequestdemo12>
       </Flex>
     </Flex>
-  )
+  );
 }

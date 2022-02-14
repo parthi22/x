@@ -5,12 +5,12 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
-import { Flex, IconAdd, Text } from '@aws-amplify/ui-react'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, IconAdd, Text } from "@aws-amplify/ui-react";
 export default function PeopleFrequentlyAskedQuestion(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <Flex
       gap="20px"
@@ -22,7 +22,7 @@ export default function PeopleFrequentlyAskedQuestion(props) {
       padding="10px 10px 10px 10px"
       backgroundColor="rgba(255,255,255,1)"
       {...rest}
-      {...getOverrideProps(overrides, 'Flex')}
+      {...getOverrideProps(overrides, "Flex")}
     >
       <Text
         fontFamily="IBM Plex Sans"
@@ -41,7 +41,7 @@ export default function PeopleFrequentlyAskedQuestion(props) {
         position="relative"
         padding="0px 0px 0px 0px"
         children="What is eNPS? How do companies leverage eNPS with 10xPeople?"
-        {...getOverrideProps(overrides, 'Flex.Text[0]')}
+        {...getOverrideProps(overrides, "Flex.Text[0]")}
       ></Text>
       <IconAdd
         width="24px"
@@ -53,8 +53,8 @@ export default function PeopleFrequentlyAskedQuestion(props) {
         color="rgba(109.00000110268593,108.00000116229057,111.00000098347664,1)"
         type="add"
         fontSize="24px"
-        {...getOverrideProps(overrides, 'Flex.IconAdd[0]')}
+        {...getOverrideProps(overrides, "Flex.IconAdd[0]")}
       ></IconAdd>
     </Flex>
-  )
+  );
 }

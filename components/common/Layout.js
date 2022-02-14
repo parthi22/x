@@ -11,7 +11,7 @@ const Layout = (props) => {
   return (
     <React.Fragment>
       <MediaContextProvider>
-        <HeaderBar />
+        <HeaderBar width="100%"/>
         <SiteHead {...head} />
         {children}
         <Media greaterThan="xs">

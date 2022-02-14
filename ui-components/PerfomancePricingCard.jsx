@@ -5,12 +5,12 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
-import { Flex, Heading, Icon, Text, View } from '@aws-amplify/ui-react'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, Heading, Icon, Text, View } from "@aws-amplify/ui-react";
 export default function PerfomancePricingCard(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <Flex
       gap="10px"
@@ -21,7 +21,7 @@ export default function PerfomancePricingCard(props) {
       padding="10px 10px 10px 10px"
       backgroundColor="rgba(255,255,255,1)"
       {...rest}
-      {...getOverrideProps(overrides, 'Flex')}
+      {...getOverrideProps(overrides, "Flex")}
     >
       <Text
         fontFamily="IBM Plex Sans"
@@ -41,7 +41,7 @@ export default function PerfomancePricingCard(props) {
         position="relative"
         padding="0px 0px 0px 0px"
         children="Starting at just $6/user"
-        {...getOverrideProps(overrides, 'Flex.Text[0]')}
+        {...getOverrideProps(overrides, "Flex.Text[0]")}
       ></Text>
       <Text
         fontFamily="IBM Plex Sans"
@@ -61,7 +61,7 @@ export default function PerfomancePricingCard(props) {
         position="relative"
         padding="0px 0px 0px 0px"
         children="Per Month"
-        {...getOverrideProps(overrides, 'Flex.Text[1]')}
+        {...getOverrideProps(overrides, "Flex.Text[1]")}
       ></Text>
       <Flex
         gap="10px"
@@ -72,7 +72,7 @@ export default function PerfomancePricingCard(props) {
         overflow="hidden"
         position="relative"
         padding="0px 10px 10px 10px"
-        {...getOverrideProps(overrides, 'Flex.Flex[0]')}
+        {...getOverrideProps(overrides, "Flex.Flex[0]")}
       >
         <View
           width="18px"
@@ -80,7 +80,7 @@ export default function PerfomancePricingCard(props) {
           shrink="0"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.Flex[0].View[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[0].View[0]")}
         >
           <View
             position="absolute"
@@ -89,7 +89,7 @@ export default function PerfomancePricingCard(props) {
             left="0%"
             right="0%"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, 'Flex.Flex[0].View[0].View[0]')}
+            {...getOverrideProps(overrides, "Flex.Flex[0].View[0].View[0]")}
           >
             <Icon
               width="18px"
@@ -104,7 +104,7 @@ export default function PerfomancePricingCard(props) {
               right="0%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[0].View[0].View[0].Icon[0]',
+                "Flex.Flex[0].View[0].View[0].Icon[0]"
               )}
             ></Icon>
             <Icon
@@ -120,7 +120,7 @@ export default function PerfomancePricingCard(props) {
               right="5.555555555555555%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[0].View[0].View[0].Icon[1]',
+                "Flex.Flex[0].View[0].View[0].Icon[1]"
               )}
             ></Icon>
           </View>
@@ -133,7 +133,7 @@ export default function PerfomancePricingCard(props) {
           height="24px"
           level="6"
           children="Enterprise ready with single sign-on"
-          {...getOverrideProps(overrides, 'Flex.Flex[0].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[0].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -145,7 +145,7 @@ export default function PerfomancePricingCard(props) {
         overflow="hidden"
         position="relative"
         padding="0px 10px 10px 10px"
-        {...getOverrideProps(overrides, 'Flex.Flex[1]')}
+        {...getOverrideProps(overrides, "Flex.Flex[1]")}
       >
         <View
           width="18px"
@@ -153,7 +153,7 @@ export default function PerfomancePricingCard(props) {
           shrink="0"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.Flex[1].View[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[1].View[0]")}
         >
           <View
             position="absolute"
@@ -162,7 +162,7 @@ export default function PerfomancePricingCard(props) {
             left="0%"
             right="0%"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, 'Flex.Flex[1].View[0].View[0]')}
+            {...getOverrideProps(overrides, "Flex.Flex[1].View[0].View[0]")}
           >
             <Icon
               width="18px"
@@ -177,7 +177,7 @@ export default function PerfomancePricingCard(props) {
               right="0%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[1].View[0].View[0].Icon[0]',
+                "Flex.Flex[1].View[0].View[0].Icon[0]"
               )}
             ></Icon>
             <Icon
@@ -193,7 +193,7 @@ export default function PerfomancePricingCard(props) {
               right="5.555555555555555%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[1].View[0].View[0].Icon[1]',
+                "Flex.Flex[1].View[0].View[0].Icon[1]"
               )}
             ></Icon>
           </View>
@@ -206,7 +206,7 @@ export default function PerfomancePricingCard(props) {
           height="48px"
           level="6"
           children="Actionable insights and analytics for your business, people, and culture"
-          {...getOverrideProps(overrides, 'Flex.Flex[1].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[1].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -218,7 +218,7 @@ export default function PerfomancePricingCard(props) {
         overflow="hidden"
         position="relative"
         padding="0px 10px 10px 10px"
-        {...getOverrideProps(overrides, 'Flex.Flex[2]')}
+        {...getOverrideProps(overrides, "Flex.Flex[2]")}
       >
         <View
           width="18px"
@@ -226,7 +226,7 @@ export default function PerfomancePricingCard(props) {
           shrink="0"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.Flex[2].View[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[2].View[0]")}
         >
           <View
             position="absolute"
@@ -235,7 +235,7 @@ export default function PerfomancePricingCard(props) {
             left="0%"
             right="0%"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, 'Flex.Flex[2].View[0].View[0]')}
+            {...getOverrideProps(overrides, "Flex.Flex[2].View[0].View[0]")}
           >
             <Icon
               width="18px"
@@ -250,7 +250,7 @@ export default function PerfomancePricingCard(props) {
               right="0%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[2].View[0].View[0].Icon[0]',
+                "Flex.Flex[2].View[0].View[0].Icon[0]"
               )}
             ></Icon>
             <Icon
@@ -266,7 +266,7 @@ export default function PerfomancePricingCard(props) {
               right="5.555555555555555%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[2].View[0].View[0].Icon[1]',
+                "Flex.Flex[2].View[0].View[0].Icon[1]"
               )}
             ></Icon>
           </View>
@@ -279,7 +279,7 @@ export default function PerfomancePricingCard(props) {
           height="24px"
           level="6"
           children="Guided setup and integration with existing HR Tech products"
-          {...getOverrideProps(overrides, 'Flex.Flex[2].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[2].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -291,7 +291,7 @@ export default function PerfomancePricingCard(props) {
         overflow="hidden"
         position="relative"
         padding="0px 10px 10px 10px"
-        {...getOverrideProps(overrides, 'Flex.Flex[3]')}
+        {...getOverrideProps(overrides, "Flex.Flex[3]")}
       >
         <View
           width="18px"
@@ -299,7 +299,7 @@ export default function PerfomancePricingCard(props) {
           shrink="0"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.Flex[3].View[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[3].View[0]")}
         >
           <View
             position="absolute"
@@ -308,7 +308,7 @@ export default function PerfomancePricingCard(props) {
             left="0%"
             right="0%"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, 'Flex.Flex[3].View[0].View[0]')}
+            {...getOverrideProps(overrides, "Flex.Flex[3].View[0].View[0]")}
           >
             <Icon
               width="18px"
@@ -323,7 +323,7 @@ export default function PerfomancePricingCard(props) {
               right="0%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[3].View[0].View[0].Icon[0]',
+                "Flex.Flex[3].View[0].View[0].Icon[0]"
               )}
             ></Icon>
             <Icon
@@ -339,7 +339,7 @@ export default function PerfomancePricingCard(props) {
               right="5.555555555555555%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[3].View[0].View[0].Icon[1]',
+                "Flex.Flex[3].View[0].View[0].Icon[1]"
               )}
             ></Icon>
           </View>
@@ -352,7 +352,7 @@ export default function PerfomancePricingCard(props) {
           height="24px"
           level="6"
           children="Onboarding support by an experienced people expert/coach"
-          {...getOverrideProps(overrides, 'Flex.Flex[3].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[3].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -367,7 +367,7 @@ export default function PerfomancePricingCard(props) {
         borderRadius="6px"
         padding="10px 10px 10px 10px"
         backgroundColor="rgba(186.0000041127205,51.00000075995922,53.00000064074993,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[4]')}
+        {...getOverrideProps(overrides, "Flex.Flex[4]")}
       >
         <Text
           fontFamily="Inter"
@@ -386,9 +386,9 @@ export default function PerfomancePricingCard(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           children="Get Started"
-          {...getOverrideProps(overrides, 'Flex.Flex[4].Text[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[4].Text[0]")}
         ></Text>
       </Flex>
     </Flex>
-  )
+  );
 }

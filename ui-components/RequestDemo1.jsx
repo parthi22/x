@@ -5,8 +5,8 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import {
   Button,
   Flex,
@@ -15,10 +15,10 @@ import {
   PasswordField,
   Text,
   View,
-} from '@aws-amplify/ui-react'
+} from "@aws-amplify/ui-react";
 export default function RequestDemo1(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <Flex
       gap="40px"
@@ -31,7 +31,7 @@ export default function RequestDemo1(props) {
       padding="29px 29px 29px 29px"
       backgroundColor="rgba(255,255,255,1)"
       {...rest}
-      {...getOverrideProps(overrides, 'Flex')}
+      {...getOverrideProps(overrides, "Flex")}
     >
       <Heading
         alignItems="flex-start"
@@ -40,7 +40,7 @@ export default function RequestDemo1(props) {
         width="164px"
         level="6"
         children="Request Demo"
-        {...getOverrideProps(overrides, 'Flex.Heading[0]')}
+        {...getOverrideProps(overrides, "Flex.Heading[0]")}
       ></Heading>
       <Flex
         gap="17px"
@@ -49,7 +49,7 @@ export default function RequestDemo1(props) {
         width="379px"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, 'Flex.Flex[0]')}
+        {...getOverrideProps(overrides, "Flex.Flex[0]")}
       >
         <Flex
           gap="35px"
@@ -62,7 +62,7 @@ export default function RequestDemo1(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(255,255,255,1)"
-          {...getOverrideProps(overrides, 'Flex.Flex[0].Flex[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[0].Flex[0]")}
         >
           <Flex
             gap="8px"
@@ -71,7 +71,7 @@ export default function RequestDemo1(props) {
             height="88px"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, 'Flex.Flex[0].Flex[0].Flex[0]')}
+            {...getOverrideProps(overrides, "Flex.Flex[0].Flex[0].Flex[0]")}
           >
             <Text
               fontFamily="IBM Plex Sans"
@@ -89,7 +89,7 @@ export default function RequestDemo1(props) {
               children="First Name *"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[0].Flex[0].Flex[0].Text[0]',
+                "Flex.Flex[0].Flex[0].Flex[0].Text[0]"
               )}
             ></Text>
             <PasswordField
@@ -102,7 +102,7 @@ export default function RequestDemo1(props) {
               hideShowPassword="true"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[0].Flex[0].Flex[0].PasswordField[0]',
+                "Flex.Flex[0].Flex[0].Flex[0].PasswordField[0]"
               )}
             ></PasswordField>
           </Flex>
@@ -113,7 +113,7 @@ export default function RequestDemo1(props) {
             height="88px"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, 'Flex.Flex[0].Flex[0].Flex[1]')}
+            {...getOverrideProps(overrides, "Flex.Flex[0].Flex[0].Flex[1]")}
           >
             <Text
               fontFamily="IBM Plex Sans"
@@ -131,7 +131,7 @@ export default function RequestDemo1(props) {
               children="Last Name *"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[0].Flex[0].Flex[1].Text[0]',
+                "Flex.Flex[0].Flex[0].Flex[1].Text[0]"
               )}
             ></Text>
             <PasswordField
@@ -144,7 +144,7 @@ export default function RequestDemo1(props) {
               hideShowPassword="true"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[0].Flex[0].Flex[1].PasswordField[0]',
+                "Flex.Flex[0].Flex[0].Flex[1].PasswordField[0]"
               )}
             ></PasswordField>
           </Flex>
@@ -156,7 +156,7 @@ export default function RequestDemo1(props) {
           width="379px"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.Flex[0].Flex[1]')}
+          {...getOverrideProps(overrides, "Flex.Flex[0].Flex[1]")}
         >
           <Text
             fontFamily="IBM Plex Sans"
@@ -172,7 +172,7 @@ export default function RequestDemo1(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             children="Work Email*"
-            {...getOverrideProps(overrides, 'Flex.Flex[0].Flex[1].Text[0]')}
+            {...getOverrideProps(overrides, "Flex.Flex[0].Flex[1].Text[0]")}
           ></Text>
           <PasswordField
             display="flex"
@@ -184,7 +184,7 @@ export default function RequestDemo1(props) {
             hideShowPassword="true"
             {...getOverrideProps(
               overrides,
-              'Flex.Flex[0].Flex[1].PasswordField[0]',
+              "Flex.Flex[0].Flex[1].PasswordField[0]"
             )}
           ></PasswordField>
         </Flex>
@@ -195,7 +195,7 @@ export default function RequestDemo1(props) {
           width="379px"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.Flex[0].Flex[2]')}
+          {...getOverrideProps(overrides, "Flex.Flex[0].Flex[2]")}
         >
           <Text
             fontFamily="IBM Plex Sans"
@@ -211,7 +211,7 @@ export default function RequestDemo1(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             children="Phone*"
-            {...getOverrideProps(overrides, 'Flex.Flex[0].Flex[2].Text[0]')}
+            {...getOverrideProps(overrides, "Flex.Flex[0].Flex[2].Text[0]")}
           ></Text>
           <PasswordField
             display="flex"
@@ -223,7 +223,7 @@ export default function RequestDemo1(props) {
             hideShowPassword="true"
             {...getOverrideProps(
               overrides,
-              'Flex.Flex[0].Flex[2].PasswordField[0]',
+              "Flex.Flex[0].Flex[2].PasswordField[0]"
             )}
           ></PasswordField>
         </Flex>
@@ -236,7 +236,7 @@ export default function RequestDemo1(props) {
         width="380px"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, 'Flex.Flex[1]')}
+        {...getOverrideProps(overrides, "Flex.Flex[1]")}
       >
         <Button
           display="flex"
@@ -251,7 +251,7 @@ export default function RequestDemo1(props) {
           borderRadius="4px"
           padding="8px 16px 8px 16px"
           backgroundColor="rgba(186.0000041127205,51.00000075995922,53.00000064074993,1)"
-          {...getOverrideProps(overrides, 'Flex.Flex[1].Button[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[1].Button[0]")}
         >
           <Text
             fontFamily="Inter"
@@ -268,7 +268,7 @@ export default function RequestDemo1(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             children="Request Demo"
-            {...getOverrideProps(overrides, 'Flex.Flex[1].Button[0].Text[0]')}
+            {...getOverrideProps(overrides, "Flex.Flex[1].Button[0].Text[0]")}
           ></Text>
         </Button>
       </Flex>
@@ -278,7 +278,7 @@ export default function RequestDemo1(props) {
         shrink="0"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, 'Flex.View[0]')}
+        {...getOverrideProps(overrides, "Flex.View[0]")}
       >
         <Flex
           gap="3px"
@@ -290,7 +290,7 @@ export default function RequestDemo1(props) {
           direction="row"
           alignItems="flex-start"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.View[0].Flex[0]')}
+          {...getOverrideProps(overrides, "Flex.View[0].Flex[0]")}
         >
           <IconCheck
             width="24px"
@@ -304,7 +304,7 @@ export default function RequestDemo1(props) {
             fontSize="24px"
             {...getOverrideProps(
               overrides,
-              'Flex.View[0].Flex[0].IconCheck[0]',
+              "Flex.View[0].Flex[0].IconCheck[0]"
             )}
           ></IconCheck>
           <Text
@@ -321,7 +321,7 @@ export default function RequestDemo1(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             children="1-month free trial access"
-            {...getOverrideProps(overrides, 'Flex.View[0].Flex[0].Text[0]')}
+            {...getOverrideProps(overrides, "Flex.View[0].Flex[0].Text[0]")}
           ></Text>
         </Flex>
         <Flex
@@ -334,7 +334,7 @@ export default function RequestDemo1(props) {
           direction="row"
           alignItems="flex-start"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.View[0].Flex[1]')}
+          {...getOverrideProps(overrides, "Flex.View[0].Flex[1]")}
         >
           <IconCheck
             width="24px"
@@ -348,7 +348,7 @@ export default function RequestDemo1(props) {
             fontSize="24px"
             {...getOverrideProps(
               overrides,
-              'Flex.View[0].Flex[1].IconCheck[0]',
+              "Flex.View[0].Flex[1].IconCheck[0]"
             )}
           ></IconCheck>
           <Text
@@ -365,10 +365,10 @@ export default function RequestDemo1(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             children="No credit card required"
-            {...getOverrideProps(overrides, 'Flex.View[0].Flex[1].Text[0]')}
+            {...getOverrideProps(overrides, "Flex.View[0].Flex[1].Text[0]")}
           ></Text>
         </Flex>
       </View>
     </Flex>
-  )
+  );
 }

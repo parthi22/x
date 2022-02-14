@@ -5,12 +5,12 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
-import { Flex, Image, Text } from '@aws-amplify/ui-react'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, Image, Text } from "@aws-amplify/ui-react";
 export default function GoalImage(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <Flex
       gap="20px"
@@ -21,7 +21,7 @@ export default function GoalImage(props) {
       padding="30px 30px 30px 30px"
       backgroundColor="rgba(255,255,255,1)"
       {...rest}
-      {...getOverrideProps(overrides, 'Flex')}
+      {...getOverrideProps(overrides, "Flex")}
     >
       <Image
         width="993px"
@@ -33,7 +33,7 @@ export default function GoalImage(props) {
         boxShadow="0px 1px 2px rgba(0, 0, 0, 0.20000000298023224)"
         borderRadius="11px"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, 'Flex.Image[0]')}
+        {...getOverrideProps(overrides, "Flex.Image[0]")}
       ></Image>
       <Text
         fontFamily="IBM Plex Sans"
@@ -51,8 +51,8 @@ export default function GoalImage(props) {
         position="relative"
         padding="0px 0px 0px 0px"
         children="Facilitate top-down strategy and bottom-up execution effectively. Set company objectives and align them with teams and individuals"
-        {...getOverrideProps(overrides, 'Flex.Text[0]')}
+        {...getOverrideProps(overrides, "Flex.Text[0]")}
       ></Text>
     </Flex>
-  )
+  );
 }

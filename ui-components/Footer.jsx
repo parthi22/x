@@ -5,12 +5,12 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
-import { Flex, Icon, Image, Text, View } from '@aws-amplify/ui-react'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
 export default function Footer(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <Flex
       gap="10px"
@@ -23,7 +23,7 @@ export default function Footer(props) {
       padding="10px 20px 10px 20px"
       backgroundColor="rgba(246.0000005364418,246.0000005364418,247.00000047683716,1)"
       {...rest}
-      {...getOverrideProps(overrides, 'Flex')}
+      {...getOverrideProps(overrides, "Flex")}
     >
       <Flex
         gap="10px"
@@ -38,7 +38,7 @@ export default function Footer(props) {
         position="relative"
         padding="10px 10px 10px 10px"
         backgroundColor="rgba(246.0000005364418,246.0000005364418,247.00000047683716,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[0]')}
+        {...getOverrideProps(overrides, "Flex.Flex[0]")}
       >
         <Image
           width="132px"
@@ -47,7 +47,7 @@ export default function Footer(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           src="https://d2gxm2c63thfmv.cloudfront.net/wp-content/uploads/2021/07/21232027/xto10x-logo-v2.png"
-          {...getOverrideProps(overrides, 'Flex.Flex[0].Image[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[0].Image[0]")}
         ></Image>
       </Flex>
       <Flex
@@ -61,7 +61,7 @@ export default function Footer(props) {
         alignSelf="stretch"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, 'Flex.Flex[1]')}
+        {...getOverrideProps(overrides, "Flex.Flex[1]")}
       >
         <Text
           fontFamily="IBM Plex Sans"
@@ -80,7 +80,7 @@ export default function Footer(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           children="Copyright 2022 - xto10x Technologies"
-          {...getOverrideProps(overrides, 'Flex.Flex[1].Text[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[1].Text[0]")}
         ></Text>
       </Flex>
       <Flex
@@ -96,7 +96,7 @@ export default function Footer(props) {
         position="relative"
         padding="10px 10px 10px 10px"
         backgroundColor="rgba(246.0000005364418,246.0000005364418,247.00000047683716,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[2]')}
+        {...getOverrideProps(overrides, "Flex.Flex[2]")}
       >
         <Flex
           padding="0px 0px 0px 0px"
@@ -104,7 +104,7 @@ export default function Footer(props) {
           height="40px"
           shrink="0"
           position="relative"
-          {...getOverrideProps(overrides, 'Flex.Flex[2].Flex[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[2].Flex[0]")}
         >
           <View
             padding="0px 0px 0px 0px"
@@ -113,7 +113,7 @@ export default function Footer(props) {
             position="absolute"
             top="0px"
             left="57px"
-            {...getOverrideProps(overrides, 'Flex.Flex[2].Flex[0].View[0]')}
+            {...getOverrideProps(overrides, "Flex.Flex[2].Flex[0].View[0]")}
           >
             <Icon
               width="40px"
@@ -126,7 +126,7 @@ export default function Footer(props) {
               left="0px"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[2].Flex[0].View[0].Icon[0]',
+                "Flex.Flex[2].Flex[0].View[0].Icon[0]"
               )}
             ></Icon>
             <View
@@ -138,7 +138,7 @@ export default function Footer(props) {
               left="9px"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[2].Flex[0].View[0].View[0]',
+                "Flex.Flex[2].Flex[0].View[0].View[0]"
               )}
             >
               <Icon
@@ -154,7 +154,7 @@ export default function Footer(props) {
                 right="0%"
                 {...getOverrideProps(
                   overrides,
-                  'Flex.Flex[2].Flex[0].View[0].View[0].Icon[0]',
+                  "Flex.Flex[2].Flex[0].View[0].View[0].Icon[0]"
                 )}
               ></Icon>
             </View>
@@ -166,7 +166,7 @@ export default function Footer(props) {
             position="absolute"
             top="0px"
             left="114px"
-            {...getOverrideProps(overrides, 'Flex.Flex[2].Flex[0].View[1]')}
+            {...getOverrideProps(overrides, "Flex.Flex[2].Flex[0].View[1]")}
           >
             <View
               padding="0px 0px 0px 0px"
@@ -177,7 +177,7 @@ export default function Footer(props) {
               left="0px"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[2].Flex[0].View[1].View[0]',
+                "Flex.Flex[2].Flex[0].View[1].View[0]"
               )}
             >
               <Icon
@@ -191,7 +191,7 @@ export default function Footer(props) {
                 left="0px"
                 {...getOverrideProps(
                   overrides,
-                  'Flex.Flex[2].Flex[0].View[1].View[0].Icon[0]',
+                  "Flex.Flex[2].Flex[0].View[1].View[0].Icon[0]"
                 )}
               ></Icon>
             </View>
@@ -208,7 +208,7 @@ export default function Footer(props) {
               right="22.49847412109375%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[2].Flex[0].View[1].Icon[0]',
+                "Flex.Flex[2].Flex[0].View[1].Icon[0]"
               )}
             >
               <Icon
@@ -229,7 +229,7 @@ export default function Footer(props) {
                 right="44.99847173690796%"
                 {...getOverrideProps(
                   overrides,
-                  'Flex.Flex[2].Flex[0].View[1].Icon[0].Icon[0]',
+                  "Flex.Flex[2].Flex[0].View[1].Icon[0].Icon[0]"
                 )}
               ></Icon>
               <Icon
@@ -250,7 +250,7 @@ export default function Footer(props) {
                 right="86.25030636787415%"
                 {...getOverrideProps(
                   overrides,
-                  'Flex.Flex[2].Flex[0].View[1].Icon[0].Icon[1]',
+                  "Flex.Flex[2].Flex[0].View[1].Icon[0].Icon[1]"
                 )}
               ></Icon>
               <Icon
@@ -271,7 +271,7 @@ export default function Footer(props) {
                 right="86.2489500612719%"
                 {...getOverrideProps(
                   overrides,
-                  'Flex.Flex[2].Flex[0].View[1].Icon[0].Icon[2]',
+                  "Flex.Flex[2].Flex[0].View[1].Icon[0].Icon[2]"
                 )}
               ></Icon>
             </Icon>
@@ -283,7 +283,7 @@ export default function Footer(props) {
             position="absolute"
             top="0px"
             left="0px"
-            {...getOverrideProps(overrides, 'Flex.Flex[2].Flex[0].View[2]')}
+            {...getOverrideProps(overrides, "Flex.Flex[2].Flex[0].View[2]")}
           >
             <View
               padding="0px 0px 0px 0px"
@@ -294,7 +294,7 @@ export default function Footer(props) {
               left="0px"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[2].Flex[0].View[2].View[0]',
+                "Flex.Flex[2].Flex[0].View[2].View[0]"
               )}
             >
               <Icon
@@ -308,7 +308,7 @@ export default function Footer(props) {
                 left="0px"
                 {...getOverrideProps(
                   overrides,
-                  'Flex.Flex[2].Flex[0].View[2].View[0].Icon[0]',
+                  "Flex.Flex[2].Flex[0].View[2].View[0].Icon[0]"
                 )}
               ></Icon>
             </View>
@@ -321,7 +321,7 @@ export default function Footer(props) {
               left="8px"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[2].Flex[0].View[2].View[1]',
+                "Flex.Flex[2].Flex[0].View[2].View[1]"
               )}
             >
               <Icon
@@ -340,7 +340,7 @@ export default function Footer(props) {
                 left="0px"
                 {...getOverrideProps(
                   overrides,
-                  'Flex.Flex[2].Flex[0].View[2].View[1].Icon[0]',
+                  "Flex.Flex[2].Flex[0].View[2].View[1].Icon[0]"
                 )}
               >
                 <Icon
@@ -358,7 +358,7 @@ export default function Footer(props) {
                   left="0px"
                   {...getOverrideProps(
                     overrides,
-                    'Flex.Flex[2].Flex[0].View[2].View[1].Icon[0].Icon[0]',
+                    "Flex.Flex[2].Flex[0].View[2].View[1].Icon[0].Icon[0]"
                   )}
                 ></Icon>
                 <Icon
@@ -376,7 +376,7 @@ export default function Footer(props) {
                   left="9.199735641479492px"
                   {...getOverrideProps(
                     overrides,
-                    'Flex.Flex[2].Flex[0].View[2].View[1].Icon[0].Icon[1]',
+                    "Flex.Flex[2].Flex[0].View[2].View[1].Icon[0].Icon[1]"
                   )}
                 ></Icon>
               </Icon>
@@ -385,5 +385,5 @@ export default function Footer(props) {
         </Flex>
       </Flex>
     </Flex>
-  )
+  );
 }

@@ -5,12 +5,12 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
-import { Flex, Image } from '@aws-amplify/ui-react'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, Image } from "@aws-amplify/ui-react";
 export default function LogoCard(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <Flex
       gap="0"
@@ -18,7 +18,7 @@ export default function LogoCard(props) {
       position="relative"
       padding="0px 0px 0px 0px"
       {...rest}
-      {...getOverrideProps(overrides, 'Flex')}
+      {...getOverrideProps(overrides, "Flex")}
     >
       <Flex
         gap="10px"
@@ -34,7 +34,7 @@ export default function LogoCard(props) {
         borderRadius="9px"
         padding="10px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[0]')}
+        {...getOverrideProps(overrides, "Flex.Flex[0]")}
       >
         <Image
           width="172px"
@@ -44,9 +44,9 @@ export default function LogoCard(props) {
           alignSelf="stretch"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.Flex[0].Image[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[0].Image[0]")}
         ></Image>
       </Flex>
     </Flex>
-  )
+  );
 }

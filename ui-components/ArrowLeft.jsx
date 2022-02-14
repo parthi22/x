@@ -5,12 +5,12 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
-import { Icon, View } from '@aws-amplify/ui-react'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Icon, View } from "@aws-amplify/ui-react";
 export default function ArrowLeft(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <View
       width="100px"
@@ -18,7 +18,7 @@ export default function ArrowLeft(props) {
       position="relative"
       padding="0px 0px 0px 0px"
       {...rest}
-      {...getOverrideProps(overrides, 'View')}
+      {...getOverrideProps(overrides, "View")}
     >
       <View
         position="absolute"
@@ -30,7 +30,7 @@ export default function ArrowLeft(props) {
         borderRadius="7px"
         padding="0px 0px 0px 0px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'View.View[0]')}
+        {...getOverrideProps(overrides, "View.View[0]")}
       ></View>
       <View
         padding="0px 0px 0px 0px"
@@ -41,7 +41,7 @@ export default function ArrowLeft(props) {
         right="2%"
         transformOrigin="top left"
         transform="rotate(-180deg)"
-        {...getOverrideProps(overrides, 'View.View[1]')}
+        {...getOverrideProps(overrides, "View.View[1]")}
       >
         <Icon
           width="29.0908203125px"
@@ -59,7 +59,7 @@ export default function ArrowLeft(props) {
           bottom="51.35137424405236%"
           left="4.5440673828125%"
           right="4.546838998794556%"
-          {...getOverrideProps(overrides, 'View.View[1].Icon[0]')}
+          {...getOverrideProps(overrides, "View.View[1].Icon[0]")}
         ></Icon>
         <Icon
           width="32px"
@@ -72,9 +72,9 @@ export default function ArrowLeft(props) {
           bottom="0.000003544058315353144%"
           left="0%"
           right="0%"
-          {...getOverrideProps(overrides, 'View.View[1].Icon[1]')}
+          {...getOverrideProps(overrides, "View.View[1].Icon[1]")}
         ></Icon>
       </View>
     </View>
-  )
+  );
 }

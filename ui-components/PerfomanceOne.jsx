@@ -5,12 +5,12 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
-import { Flex, Heading } from '@aws-amplify/ui-react'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, Heading } from "@aws-amplify/ui-react";
 export default function PerfomanceOne(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <Flex
       gap="10px"
@@ -21,7 +21,7 @@ export default function PerfomanceOne(props) {
       padding="10px 10px 10px 10px"
       backgroundColor="rgba(255,255,255,1)"
       {...rest}
-      {...getOverrideProps(overrides, 'Flex')}
+      {...getOverrideProps(overrides, "Flex")}
     >
       <Flex
         gap="10px"
@@ -33,7 +33,7 @@ export default function PerfomanceOne(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[0]')}
+        {...getOverrideProps(overrides, "Flex.Flex[0]")}
       >
         <Heading
           display="flex"
@@ -43,7 +43,7 @@ export default function PerfomanceOne(props) {
           height="48px"
           level="6"
           children="01  Completely configurable performance reviews management"
-          {...getOverrideProps(overrides, 'Flex.Flex[0].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[0].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -56,7 +56,7 @@ export default function PerfomanceOne(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[1]')}
+        {...getOverrideProps(overrides, "Flex.Flex[1]")}
       >
         <Heading
           display="flex"
@@ -66,7 +66,7 @@ export default function PerfomanceOne(props) {
           height="48px"
           level="6"
           children="02  One dashboard for org-wide reviews with flexible mid-review changes"
-          {...getOverrideProps(overrides, 'Flex.Flex[1].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[1].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -79,7 +79,7 @@ export default function PerfomanceOne(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[2]')}
+        {...getOverrideProps(overrides, "Flex.Flex[2]")}
       >
         <Heading
           display="flex"
@@ -89,7 +89,7 @@ export default function PerfomanceOne(props) {
           height="48px"
           level="6"
           children="03  Streamlined review workflows with nudge features for team-mates"
-          {...getOverrideProps(overrides, 'Flex.Flex[2].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[2].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -102,7 +102,7 @@ export default function PerfomanceOne(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[3]')}
+        {...getOverrideProps(overrides, "Flex.Flex[3]")}
       >
         <Heading
           display="flex"
@@ -112,9 +112,9 @@ export default function PerfomanceOne(props) {
           height="48px"
           level="6"
           children="04  Easy data representation for stakeholders with scatter plots"
-          {...getOverrideProps(overrides, 'Flex.Flex[3].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[3].Heading[0]")}
         ></Heading>
       </Flex>
     </Flex>
-  )
+  );
 }

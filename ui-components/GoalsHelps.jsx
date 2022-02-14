@@ -5,12 +5,12 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
-import { Flex, Heading } from '@aws-amplify/ui-react'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, Heading } from "@aws-amplify/ui-react";
 export default function GoalsHelps(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <Flex
       gap="10px"
@@ -21,7 +21,7 @@ export default function GoalsHelps(props) {
       padding="10px 10px 10px 10px"
       backgroundColor="rgba(255,255,255,1)"
       {...rest}
-      {...getOverrideProps(overrides, 'Flex')}
+      {...getOverrideProps(overrides, "Flex")}
     >
       <Flex
         gap="10px"
@@ -33,7 +33,7 @@ export default function GoalsHelps(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[0]')}
+        {...getOverrideProps(overrides, "Flex.Flex[0]")}
       >
         <Heading
           display="flex"
@@ -43,7 +43,7 @@ export default function GoalsHelps(props) {
           height="24px"
           level="6"
           children="01  Org-wide goals alignment"
-          {...getOverrideProps(overrides, 'Flex.Flex[0].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[0].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -56,7 +56,7 @@ export default function GoalsHelps(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[1]')}
+        {...getOverrideProps(overrides, "Flex.Flex[1]")}
       >
         <Heading
           display="flex"
@@ -66,7 +66,7 @@ export default function GoalsHelps(props) {
           height="24px"
           level="6"
           children="02  Reducing time spent in meetings"
-          {...getOverrideProps(overrides, 'Flex.Flex[1].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[1].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -79,7 +79,7 @@ export default function GoalsHelps(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[2]')}
+        {...getOverrideProps(overrides, "Flex.Flex[2]")}
       >
         <Heading
           display="flex"
@@ -89,7 +89,7 @@ export default function GoalsHelps(props) {
           height="24px"
           level="6"
           children="03  Cross-functional collaboration"
-          {...getOverrideProps(overrides, 'Flex.Flex[2].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[2].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -102,7 +102,7 @@ export default function GoalsHelps(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[3]')}
+        {...getOverrideProps(overrides, "Flex.Flex[3]")}
       >
         <Heading
           display="flex"
@@ -112,7 +112,7 @@ export default function GoalsHelps(props) {
           height="24px"
           level="6"
           children="04  Transparency and accountability"
-          {...getOverrideProps(overrides, 'Flex.Flex[3].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[3].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -125,7 +125,7 @@ export default function GoalsHelps(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[4]')}
+        {...getOverrideProps(overrides, "Flex.Flex[4]")}
       >
         <Heading
           display="flex"
@@ -135,7 +135,7 @@ export default function GoalsHelps(props) {
           height="24px"
           level="6"
           children="05  Team progress dashboard"
-          {...getOverrideProps(overrides, 'Flex.Flex[4].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[4].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -148,7 +148,7 @@ export default function GoalsHelps(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[5]')}
+        {...getOverrideProps(overrides, "Flex.Flex[5]")}
       >
         <Heading
           display="flex"
@@ -158,7 +158,7 @@ export default function GoalsHelps(props) {
           height="24px"
           level="6"
           children="06  OKR check-in reminders"
-          {...getOverrideProps(overrides, 'Flex.Flex[5].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[5].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -171,7 +171,7 @@ export default function GoalsHelps(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[6]')}
+        {...getOverrideProps(overrides, "Flex.Flex[6]")}
       >
         <Heading
           display="flex"
@@ -181,7 +181,7 @@ export default function GoalsHelps(props) {
           height="24px"
           level="6"
           children="07  Review rigor"
-          {...getOverrideProps(overrides, 'Flex.Flex[6].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[6].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -194,7 +194,7 @@ export default function GoalsHelps(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[7]')}
+        {...getOverrideProps(overrides, "Flex.Flex[7]")}
       >
         <Heading
           display="flex"
@@ -204,9 +204,9 @@ export default function GoalsHelps(props) {
           height="24px"
           level="6"
           children="08  Resource planning"
-          {...getOverrideProps(overrides, 'Flex.Flex[7].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[7].Heading[0]")}
         ></Heading>
       </Flex>
     </Flex>
-  )
+  );
 }

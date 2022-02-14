@@ -5,12 +5,12 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
-import { Flex, Heading, Icon, Text, View } from '@aws-amplify/ui-react'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, Heading, Icon, Text, View } from "@aws-amplify/ui-react";
 export default function AdvantagesComponent(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <Flex
       gap="10px"
@@ -22,7 +22,7 @@ export default function AdvantagesComponent(props) {
       padding="0px 0px 0px 0px"
       backgroundColor="rgba(255,255,255,1)"
       {...rest}
-      {...getOverrideProps(overrides, 'Flex')}
+      {...getOverrideProps(overrides, "Flex")}
     >
       <Flex
         gap="10px"
@@ -34,7 +34,7 @@ export default function AdvantagesComponent(props) {
         position="relative"
         padding="10px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[0]')}
+        {...getOverrideProps(overrides, "Flex.Flex[0]")}
       >
         <Text
           fontFamily="IBM Plex Sans"
@@ -52,7 +52,7 @@ export default function AdvantagesComponent(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           children="10xGoals"
-          {...getOverrideProps(overrides, 'Flex.Flex[0].Text[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[0].Text[0]")}
         ></Text>
       </Flex>
       <Flex
@@ -65,7 +65,7 @@ export default function AdvantagesComponent(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[1]')}
+        {...getOverrideProps(overrides, "Flex.Flex[1]")}
       >
         <Text
           fontFamily="IBM Plex Sans"
@@ -83,7 +83,7 @@ export default function AdvantagesComponent(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           children="Implement OKRs successfully"
-          {...getOverrideProps(overrides, 'Flex.Flex[1].Text[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[1].Text[0]")}
         ></Text>
       </Flex>
       <Flex
@@ -96,7 +96,7 @@ export default function AdvantagesComponent(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[2]')}
+        {...getOverrideProps(overrides, "Flex.Flex[2]")}
       >
         <View
           width="18px"
@@ -104,7 +104,7 @@ export default function AdvantagesComponent(props) {
           shrink="0"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.Flex[2].View[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[2].View[0]")}
         >
           <View
             position="absolute"
@@ -113,7 +113,7 @@ export default function AdvantagesComponent(props) {
             left="0%"
             right="0%"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, 'Flex.Flex[2].View[0].View[0]')}
+            {...getOverrideProps(overrides, "Flex.Flex[2].View[0].View[0]")}
           >
             <Icon
               width="18px"
@@ -128,7 +128,7 @@ export default function AdvantagesComponent(props) {
               right="0%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[2].View[0].View[0].Icon[0]',
+                "Flex.Flex[2].View[0].View[0].Icon[0]"
               )}
             ></Icon>
             <Icon
@@ -144,7 +144,7 @@ export default function AdvantagesComponent(props) {
               right="5.555555555555555%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[2].View[0].View[0].Icon[1]',
+                "Flex.Flex[2].View[0].View[0].Icon[1]"
               )}
             ></Icon>
           </View>
@@ -157,7 +157,7 @@ export default function AdvantagesComponent(props) {
           height="24px"
           level="6"
           children="Get a bird’s-eye view of your org’s goal"
-          {...getOverrideProps(overrides, 'Flex.Flex[2].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[2].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -170,7 +170,7 @@ export default function AdvantagesComponent(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[3]')}
+        {...getOverrideProps(overrides, "Flex.Flex[3]")}
       >
         <View
           width="18px"
@@ -178,7 +178,7 @@ export default function AdvantagesComponent(props) {
           shrink="0"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.Flex[3].View[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[3].View[0]")}
         >
           <View
             position="absolute"
@@ -187,7 +187,7 @@ export default function AdvantagesComponent(props) {
             left="0%"
             right="0%"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, 'Flex.Flex[3].View[0].View[0]')}
+            {...getOverrideProps(overrides, "Flex.Flex[3].View[0].View[0]")}
           >
             <Icon
               width="18px"
@@ -202,7 +202,7 @@ export default function AdvantagesComponent(props) {
               right="0%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[3].View[0].View[0].Icon[0]',
+                "Flex.Flex[3].View[0].View[0].Icon[0]"
               )}
             ></Icon>
             <Icon
@@ -218,7 +218,7 @@ export default function AdvantagesComponent(props) {
               right="5.555555555555555%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[3].View[0].View[0].Icon[1]',
+                "Flex.Flex[3].View[0].View[0].Icon[1]"
               )}
             ></Icon>
           </View>
@@ -231,7 +231,7 @@ export default function AdvantagesComponent(props) {
           height="24px"
           level="6"
           children="Reduce time spent in review meetings by 60%"
-          {...getOverrideProps(overrides, 'Flex.Flex[3].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[3].Heading[0]")}
         ></Heading>
       </Flex>
       <Flex
@@ -244,7 +244,7 @@ export default function AdvantagesComponent(props) {
         position="relative"
         padding="0px 10px 10px 10px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, 'Flex.Flex[4]')}
+        {...getOverrideProps(overrides, "Flex.Flex[4]")}
       >
         <View
           width="18px"
@@ -252,7 +252,7 @@ export default function AdvantagesComponent(props) {
           shrink="0"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, 'Flex.Flex[4].View[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[4].View[0]")}
         >
           <View
             position="absolute"
@@ -261,7 +261,7 @@ export default function AdvantagesComponent(props) {
             left="0%"
             right="0%"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, 'Flex.Flex[4].View[0].View[0]')}
+            {...getOverrideProps(overrides, "Flex.Flex[4].View[0].View[0]")}
           >
             <Icon
               width="18px"
@@ -276,7 +276,7 @@ export default function AdvantagesComponent(props) {
               right="0%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[4].View[0].View[0].Icon[0]',
+                "Flex.Flex[4].View[0].View[0].Icon[0]"
               )}
             ></Icon>
             <Icon
@@ -292,7 +292,7 @@ export default function AdvantagesComponent(props) {
               right="5.555555555555555%"
               {...getOverrideProps(
                 overrides,
-                'Flex.Flex[4].View[0].View[0].Icon[1]',
+                "Flex.Flex[4].View[0].View[0].Icon[1]"
               )}
             ></Icon>
           </View>
@@ -305,9 +305,9 @@ export default function AdvantagesComponent(props) {
           height="24px"
           level="6"
           children="Expert-led framework to drive your strategy to execution"
-          {...getOverrideProps(overrides, 'Flex.Flex[4].Heading[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[4].Heading[0]")}
         ></Heading>
       </Flex>
     </Flex>
-  )
+  );
 }

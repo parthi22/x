@@ -5,12 +5,12 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
-import { Flex, Text } from '@aws-amplify/ui-react'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, Text } from "@aws-amplify/ui-react";
 export default function GoalsHelpText(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <Flex
       gap="10px"
@@ -21,7 +21,7 @@ export default function GoalsHelpText(props) {
       position="relative"
       padding="0px 0px 0px 0px"
       {...rest}
-      {...getOverrideProps(overrides, 'Flex')}
+      {...getOverrideProps(overrides, "Flex")}
     >
       <Flex
         gap="0"
@@ -34,7 +34,7 @@ export default function GoalsHelpText(props) {
         height="42px"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, 'Flex.Flex[0]')}
+        {...getOverrideProps(overrides, "Flex.Flex[0]")}
       >
         <Text
           fontFamily="IBM Plex Sans"
@@ -52,9 +52,9 @@ export default function GoalsHelpText(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           children="10xGoals helps you with"
-          {...getOverrideProps(overrides, 'Flex.Flex[0].Text[0]')}
+          {...getOverrideProps(overrides, "Flex.Flex[0].Text[0]")}
         ></Text>
       </Flex>
     </Flex>
-  )
+  );
 }

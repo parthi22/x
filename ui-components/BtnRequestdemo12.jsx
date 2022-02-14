@@ -5,12 +5,12 @@
  **************************************************************************/
 
 /* eslint-disable */
-import React from 'react'
-import { getOverrideProps } from '@aws-amplify/ui-react/internal'
-import { Flex, Text } from '@aws-amplify/ui-react'
+import React from "react";
+import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import { Flex, Text } from "@aws-amplify/ui-react";
 export default function BtnRequestdemo12(props) {
-  const { overrides: overridesProp, ...rest } = props
-  const overrides = { ...overridesProp }
+  const { overrides: overridesProp, ...rest } = props;
+  const overrides = { ...overridesProp };
   return (
     <Flex
       gap="10px"
@@ -21,7 +21,7 @@ export default function BtnRequestdemo12(props) {
       padding="10px 10px 10px 10px"
       backgroundColor="rgba(186.0000041127205,51.00000075995922,53.00000064074993,1)"
       {...rest}
-      {...getOverrideProps(overrides, 'Flex')}
+      {...getOverrideProps(overrides, "Flex")}
     >
       <Text
         fontFamily="Inter"
@@ -40,8 +40,8 @@ export default function BtnRequestdemo12(props) {
         position="relative"
         padding="0px 0px 0px 0px"
         children="Get A Demo"
-        {...getOverrideProps(overrides, 'Flex.Text[0]')}
+        {...getOverrideProps(overrides, "Flex.Text[0]")}
       ></Text>
     </Flex>
-  )
+  );
 }
