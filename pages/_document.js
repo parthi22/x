@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-
 import { layoutStyles } from '../utils/screenLayout'
 
 class MyDocument extends Document {
